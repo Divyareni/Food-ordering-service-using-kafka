@@ -53,6 +53,7 @@ Example Workflow
 
 * Because of Kafka’s decoupled design, producer and consumer don’t block each other — enabling scalable, resilient event-driven architecture.
 
+
 # Install dependencies
 poetry install
 
@@ -61,3 +62,4 @@ poetry run python producer.py
 
 # Run consumer
 poetry run python tracker.py
+
